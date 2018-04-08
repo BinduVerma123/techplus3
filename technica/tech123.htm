@@ -1,0 +1,219 @@
+<html>
+<head>
+<style>
+*
+{background-size:cover;
+}
+#header{
+height:200;
+}
+#logo{
+float:left;
+height:200px;}
+#thought{
+float:right;
+height:200px;
+padding-right:250;}
+#menu{
+	height:50;
+border:2px solid black;
+}
+ul
+{
+	list-style:none;
+	padding:0;
+	margin:0;
+	border-color:red;
+}
+ul li
+{
+	float:left;
+	margin-top:15px;
+	text-align:center;
+width:250px;
+padding:1px;
+position:relative;
+}
+#menu ul li a
+{
+	width:200px;
+	color:greenyellow;
+	text-decoration:none;
+	padding:1px;
+}
+#menu ul li a:hover
+{
+color:black;
+}
+#register h2
+{color:white;
+align:center;}
+#block{
+margin-left:520;
+width:300;
+height:50;
+align:center;
+background-color:grey;
+border:1px solid white;
+}
+#middle{
+height:300px;
+
+}
+#aboutus{
+float:left;
+padding:1px;
+width:700px;
+}
+#aboutus h3{
+align:center;
+color:greenyellow;
+}
+#aboutus p{
+align:center;
+color:white;
+}
+#image{
+float:right;
+margin:auto;
+padding:40px;
+}
+#services{
+background-image:url("img2.png");
+height:500;
+width:1400;
+padding-top:30;}
+#t1{
+
+margin:50;
+padding:30;
+background-color:white;
+
+float:left;
+border:1px solid grey;}
+#t3{
+background-color:white;
+
+margin:50;
+padding:30;
+float:left;
+border:1px solid grey;}
+#t4{
+background-color:white;
+margin:50;
+padding:30;
+float:left;
+border:1px solid grey;}
+#t5{
+background-color:white;
+margin:50;
+padding:30;
+float:left;
+border:1px solid grey;}
+#t6{
+background-color:white;
+margin-left:50;
+padding:30;
+float:left;
+border:1px solid grey;
+border:1px solid grey;}
+#t6 img{
+margin-left:110;}
+#t7{
+background-color:white;
+margin:50;
+padding:30;
+float:left;
+border:1px solid grey;}
+#t5 img{
+margin-left:130;
+
+}
+#t4 img{
+margin-left:110;}
+#t3 img{
+margin-left:50;}
+#t1 img{
+margin-left:110;}
+#t7 img{
+margin-left:30;}
+</style>
+</head>
+<body background="bg.png" action="tanu.php">
+<script>
+var images=["hack2.png","img1.png","hack3.png"];
+var i=0;
+function slides()
+{document.getElementById("slideimage").src=images[i];
+if(i<(images.length-1))
+i++;
+else
+i=0;
+}
+setInterval(slides,2000)
+</script>
+<div id="header">
+<div id="logo"><img src="img6.png"></div>
+<div id="thought"><h1><font color="magenta">
+PERFORMANCE IS OUR BUSINESS
+<br>
+QUALITY OUR FOUNDATION</font></h1></div></div>
+<div id="menu">
+<ul>
+<li><a href="#">HOME</a></li>
+<li><a href="#">ABOUT US</a></li>:
+<li><a href="#">OUR SERVICES</a></li>
+<li><a href="#">CONTACT US</a></li>
+<li><a href="#">TRAINING</a></li>
+</ul>
+</div>
+<div id="register">
+<i><h2 align="center">
+"Have a sight,if you are ready for the damn Mind Bites"
+</h2></i>
+<div id="block" align="center">
+
+<a href="tanu.php"><font size="6"><B>REGISTER NOW</B></font></A>
+</div></div>
+<div id="Summer">
+<i><b><marquee behaviour="scroll"direction="RIGHT" font-size="+3" onmouseover="stop()" onmouseout="start()" scrollamount="20"><font color="red" size="5">
+Registration open for summer training 2018</marquee></font></div>
+<div id="middle">
+<div id="aboutus">
+<h3><font size="8">
+Know About Us
+</font></h3>
+<p><font size="6px">Vision is not enough it must be combine with venture<br>
+We provide end to end solution to all <b>web services</b><BR>
+We provide better access , better insight , better facilities</font></p>
+</div>
+<div id="image">
+<img src="know.png"></div></div>
+<div id="services">
+<div id="t1">
+<img src="t.png"><br>
+<h2><a href="#">WEB DEVELOPMENT</a></h2></div>
+
+
+<div id="t3">
+<img src="t3.png"><br>
+<h2><a href="#">SMS SERVICES</a></H2></div>
+<div id="t4">
+<img src="t2.png"><br>
+<h2><a href="#">APPLICATION DEVELOPMENT</a></h2></div>
+<div id="t5">
+<img src="t4.png"><br>
+<h2><a href="#">DOMAIN AND WEB HOSTING</a></h2></div>
+<div id="t6">
+<img src="t5.png"><br>
+<h2><a href="#">DIGITAL MARKETING <br>AND<br> LOGO DESIGNING</a></h2></div>
+<div id="t7">
+<img src="t6.png"><br>
+<h2><a href="#">SEO/SMO</a></h2></div>
+
+
+</div>
+<div id="slide"><img src="hack2.png" id="slideimage"></div>
+
+</body>
+</html>
